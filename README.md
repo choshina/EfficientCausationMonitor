@@ -1,5 +1,5 @@
 # Efficient Online Causation Monitoring of Signal Temporal Logic
-This repository is for the paper "Efficient Online Causation Monitoring of Signal Temporal Logic".
+This repository is for the reproduction of the experiment results in "Efficient Online Causation Monitoring of Signal Temporal Logic". The code is based on the online monitoring component of [Breach](https://github.com/decyphir/breach). 
 
 ***
 
@@ -27,4 +27,8 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 
 ## Reproduction of experiments in paper
 
-- Navigate to `hscc23/`
+- Navigate to `hscc23/`, all the traces and specifications have been stored at those `.mat` files
+  
+- In Line 3 of `exec.m`, specify the problem instance you want to run
+
+- run `exec.m` in MATLAB.
