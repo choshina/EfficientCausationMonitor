@@ -11,13 +11,11 @@ If you want to compile from source code, the requirement is as follows:
 
 - MATLAB (Simulink/Stateflow) version: >= 2020a. (MATLAB license needed)
 
-Alternatively, you can also use the executable available in `bin/`.
+Alternatively, you can also use the executables available in `bin/`.
 
 ## Installation of our tool:
 
 - Clone the repository, via `https://github.com/choshina/STLCausationMonitor.git`
-
-  > Alternatively, you can download this repository via the URL: .
 
 - Start MATLAB GUI, set up a C/C++ compiler using the command `mex -setup`. (Refer to [here](https://www.mathworks.com/help/matlab/matlab_external/changing-default-compiler.html) for more details.)
   > Running with MATLAB in shell is also OK.
