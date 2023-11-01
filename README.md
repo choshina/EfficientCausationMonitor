@@ -1,5 +1,5 @@
 # Efficient Online Causation Monitoring of Signal Temporal Logic
-This repository is for the paper "Efficient Online Causation Monitoring of Signal Temporal Logic".
+This repository is for the reproduction of the experiment results in "Efficient Online Causation Monitoring of Signal Temporal Logic".
 
 ***
 
