@@ -26,7 +26,7 @@ for i = 1:10
         disp([problem, ' t_robM trace_', int2str(i), 'loop_', int2str(j), 'finished']);
     end
     t_robM = toc(tic1);
-    t_robM_list = [t_robM_list; t_robM/5.0];
+    t_robM_list = [t_robM_list; t_robM/repeat];
     
 
     tic2 = tic;
@@ -37,7 +37,7 @@ for i = 1:10
         disp([problem, ' t_plainCau trace_', int2str(i), 'loop_', int2str(j), 'finished']);
     end
     t_plainCau = toc(tic2);
-    t_plainCau_list = [t_plainCau_list; t_plainCau/5.0];
+    t_plainCau_list = [t_plainCau_list; t_plainCau/repeat];
     
 
     tic3 = tic;
@@ -48,7 +48,7 @@ for i = 1:10
         disp([problem, ' t_optCau trace_', int2str(i), 'loop_', int2str(j), 'finished']);
     end
     t_optCau = toc(tic3);
-    t_optCau_list = [t_optCau_list; t_optCau/5.0];
+    t_optCau_list = [t_optCau_list; t_optCau/repeat];
     
 end
 
