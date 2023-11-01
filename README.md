@@ -11,7 +11,7 @@ If you want to compile from source code, the requirement is as follows:
 
 - MATLAB (Simulink/Stateflow) version: >= 2020a. (MATLAB license needed)
 
-Alternatively, you can also use the executables available in `bin/`.
+Alternatively, you can also use the executables available in `Online/bin/`.
 
 ## Installation of our tool:
 
