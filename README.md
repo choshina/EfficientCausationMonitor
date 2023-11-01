@@ -27,4 +27,8 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 
 ## Reproduction of experiments in paper
 
-- Navigate to `hscc23/`
+- Navigate to `hscc23/`, all the traces and specifications have been stored at those `.mat` files
+  
+- In Line 3 of `exec.m`, specify the problem instance you want to run
+
+- run `exec.m` in MATLAB.
