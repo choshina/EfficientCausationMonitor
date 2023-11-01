@@ -13,7 +13,7 @@ If you want to compile from source code, the requirement is as follows:
 
 Alternatively, you can also use the executables available in `Online/bin/`.
 
-## Installation of our tool:
+## Installation:
 
 - Clone the repository, via `https://github.com/choshina/EfficientCausationMonitor.git`
 
@@ -24,3 +24,7 @@ Alternatively, you can also use the executables available in `Online/bin/`.
   > Note that we customized `InstallBreach`. It only compiles the online monitoring component. For the full functionality of Breach, please refer to [the original repository](https://github.com/decyphir/breach)
 
 ***
+
+## Reproduction of experiments in paper
+
+- Navigate to `hscc23/`
