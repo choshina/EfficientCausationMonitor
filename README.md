@@ -29,6 +29,7 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 - executables are in `Online/bin`
 - main function of robust online monitor [FMSD'17] is `Online/src/stl_eval_mex_pw.cpp`
 - main function of causation monitor is `Online/src/stl_causation_opt.cpp`
+- see `hscc24/exec.m` for the usage of the two main functions.
 
 ***
 
