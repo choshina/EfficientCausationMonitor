@@ -23,6 +23,13 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 - Navigate to the project home, and run `InstallBreach`
   > Note that we customized `InstallBreach`. It only compiles the online monitoring component. For the full functionality of Breach, please refer to [the original repository](https://github.com/decyphir/breach)
 
+## Code Instruction:
+
+- source code is in `Online/src` and `Online/include`
+- executables are in `Online/bin`
+- main function of robust online monitor [FMSD'17] is `Online/src/stl_eval_mex_pw.cpp`
+- main function of causation monitor is `Online/src/stl_causation_opt.cpp`
+
 ***
 
 ## Reproduction of experiments in paper
