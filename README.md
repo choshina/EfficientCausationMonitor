@@ -15,8 +15,8 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 
 ## Installation:
 
-- Clone the repository, via `https://github.com/choshina/EfficientCausationMonitor.git`
-
+- Clone this repository
+  
 - Start MATLAB GUI, set up a C/C++ compiler using the command `mex -setup`. (Refer to [here](https://www.mathworks.com/help/matlab/matlab_external/changing-default-compiler.html) for more details.)
   > Running with MATLAB in shell is also OK.
 
