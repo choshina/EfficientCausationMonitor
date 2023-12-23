@@ -23,6 +23,16 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 - Navigate to the project home, and run `InstallBreach`
   > Note that we customized `InstallBreach`. It only compiles the online monitoring component. For the full functionality of Breach, please refer to [the original repository](https://github.com/decyphir/breach)
 
+## Code Instruction:
+
+- source code is in `Online/src` and `Online/include`
+- executables are in `Online/bin`
+- main function of robust online monitor [FMSD'17] is `Online/src/stl_eval_mex_pw.cpp`
+- main function of causation monitor is `Online/src/stl_causation_opt.cpp`
+- see `hscc24/exec.m` for the usage of the two main functions
+  - the STL syntax follows [Breach](https://github.com/decyphir/breach)
+  - currently, syntactically, causation monitor doesn't support "until", "=>".  
+
 ***
 
 ## Reproduction of experiments in paper
@@ -32,3 +42,6 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 - In Line 3 of `exec.m`, specify the problem instance you want to run
 
 - run `exec.m` in MATLAB.
+
+## Supplementary results
+<img src="/hscc/" alt="AT-phi1" width="600"/>
