@@ -46,6 +46,11 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 ***
 
 ## Supplementary results
+In each of the figures below, there are three sub-plots:
+  - the top sub-plot is the signal being monitored;
+  - the middle sub-plot is the monitoring result of robust online monitors;
+  - the bottom sub-plot is the monitoring result of our proposed efficient causation monitors;
+
 <p float="left">
   <img src="hscc24/plots/AT_phi1.png" alt="AT_phi1" width="400"/> 
   <img src="hscc24/plots/AT_phi2.png" alt="AT_phi2" width="400"/>
