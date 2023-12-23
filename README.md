@@ -47,16 +47,16 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 
 ## Supplementary results
 <p float="left">
-  <img src="/hscc24/plots/AT_phi1.png" alt="AT_phi1" width="400"/> 
-  <img src="/hscc24/plots/AT_phi2.png" alt="AT_phi2" width="400"/>
+  <img src="hscc24/plots/AT_phi1.png" alt="AT_phi1" width="400"/> 
+  <img src="hscc24/plots/AT_phi2.png" alt="AT_phi2" width="400"/>
 </p>
 <p float="left">
-  <img src="/hscc24/plots/AT_phi3.png" alt="AT_phi3" width="400"/>
-  <img src="/hscc24/plots/AT_phi4.png" alt="AT_phi4" width="400"/>
+  <img src="hscc24/plots/AT_phi3.png" alt="AT_phi3" width="400"/>
+  <img src="hscc24/plots/AT_phi4.png" alt="AT_phi4" width="400"/>
 </p>
 <p float="left">
-  <img src="/hscc24/plots/AFC_phi1.png" alt="AFC_phi1" width="400"/>
-  <img src="/hscc24/plots/AFC_phi2.png" alt="AFC_phi2" width="400"/>
+  <img src="hscc24/plots/AFC_phi1.png" alt="AFC_phi1" width="400"/>
+  <img src="hscc24/plots/AFC_phi2.png" alt="AFC_phi2" width="400"/>
 </p>
 
 ## How to draw such plots
