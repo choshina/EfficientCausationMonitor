@@ -42,3 +42,6 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 - In Line 3 of `exec.m`, specify the problem instance you want to run
 
 - run `exec.m` in MATLAB.
+
+## Supplementary results
+<img src="/hscc/" alt="AT-phi1" width="600"/>
