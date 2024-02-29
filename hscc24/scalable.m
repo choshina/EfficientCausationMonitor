@@ -4,19 +4,32 @@ problem = 'AT_phi1';
 
 %
 ids = [];
+rates = [];
 t_robM_list = [];
 t_plainCau_list = [];
 t_optCau_list = [];
 log = {};
 
 repeat = 5;
+id = 5;
 
-for i = 1:10
+for i = 1:6
     
-    fileload = ['data/', problem, '_trace', int2str(i), '.mat'];
-    ids = [ids; i];
+    fileload = ['data/', problem, '_trace', int2str(id), '.mat'];
+    rates = [rates; i];
 
     load(fileload);
+
+    new_trace = [];
+    [num, ~] = size(trace);
+    if i == 1
+        rate = 1;
+    else
+        rate = (i-1)*2;
+    end
+    for r = 1:num
+        new_trace = [new_trace; trace(r,1:rate:end)];
+    end
 
     tic1 = tic;
     for j = 1:repeat
@@ -53,9 +66,9 @@ for i = 1:10
 end
 
 
-fileresult = [problem, '_result', '.csv'];
+fileresult = [problem, '_rate_result', '.csv'];
 filelog = [problem, '_log', '.mat'];
 save(filelog, 'log');
-result = table(ids, t_robM_list, t_plainCau_list, t_optCau_list);
+result = table(rates, t_robM_list, t_plainCau_list, t_optCau_list);
 writetable(result, fileresult,'Delimiter',';');
 
