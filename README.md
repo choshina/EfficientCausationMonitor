@@ -15,8 +15,8 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 
 ## Installation:
 
-- Clone the repository, via `https://github.com/choshina/EfficientCausationMonitor.git`
-
+- Clone this repository
+  
 - Start MATLAB GUI, set up a C/C++ compiler using the command `mex -setup`. (Refer to [here](https://www.mathworks.com/help/matlab/matlab_external/changing-default-compiler.html) for more details.)
   > Running with MATLAB in shell is also OK.
 
@@ -43,5 +43,31 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 
 - run `exec.m` in MATLAB.
 
+***
+
 ## Supplementary results
-<img src="/hscc/" alt="AT-phi1" width="600"/>
+In each of the figures below, there are three sub-plots:
+  - the top sub-plot is the signal being monitored;
+  - the middle sub-plot is the monitoring result of robust online monitors;
+  - the bottom sub-plot is the monitoring result of our proposed efficient causation monitors;
+
+<p float="left">
+  <img src="hscc24/plots/AT_phi1.png" alt="AT_phi1" width="400"/> 
+  <img src="hscc24/plots/AT_phi2.png" alt="AT_phi2" width="400"/>
+</p>
+<p float="left">
+  <img src="hscc24/plots/AT_phi3.png" alt="AT_phi3" width="400"/>
+  <img src="hscc24/plots/AT_phi4.png" alt="AT_phi4" width="400"/>
+</p>
+<p float="left">
+  <img src="hscc24/plots/AFC_phi1.png" alt="AFC_phi1" width="400"/>
+  <img src="hscc24/plots/AFC_phi2.png" alt="AFC_phi2" width="400"/>
+</p>
+
+## How to draw such plots
+
+- Navigate to `hscc24/`, and open `plot_fig.m`
+  
+- Specify the problem instance you want to run, also specify the ID of the signal stored in `hscc/data/`
+  
+- Run `plot_fig.m`
