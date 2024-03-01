@@ -24,15 +24,15 @@ for i = 1:6
     if i == 1
         phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,1](speed[t] > 80))';
     elseif i == 2
-        phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,2](speed[t] > 80))';
-    elseif i == 3
         phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,3](speed[t] > 80))';
-    elseif i == 4
-        phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,4](speed[t] > 80))';
-    elseif i == 5
+    elseif i == 3
         phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,5](speed[t] > 80))';
+    elseif i == 4
+        phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,7](speed[t] > 80))';
+    elseif i == 5
+        phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,9](speed[t] > 80))';
     elseif i == 6
-        phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,6](speed[t] > 80))';
+        phi_str = 'alw_[0,29](not(speed[t]>70) or ev_[0,11](speed[t] > 80))';
     end
 %     tic1 = tic;
 %     for j = 1:repeat
