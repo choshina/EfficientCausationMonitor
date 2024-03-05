@@ -1,6 +1,6 @@
 clear;
 
-problem = 'AT_phi1';
+problem = 'NN_phi1';
 
 %
 ids = [];

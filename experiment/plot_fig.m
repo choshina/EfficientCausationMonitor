@@ -1,9 +1,9 @@
 clear;
 
-problem = 'AT_phi4';
+problem = 'AT_phi2';
 
 
-i = 9;
+i = 6;
     
 fileload = ['data/', problem, '_trace', int2str(i), '.mat'];
 load(fileload);
@@ -34,7 +34,7 @@ f = figure(1);
 subplot(3,1,1);
 
 if startsWith(problem, 'AFC')
-    plot(t, ori_trace(2, :)', t, ori_trace(3, :)', 'b', 'LineWidth', 2);
+    plot(t, ori_trace(2, :)', t, ori_trace(3, :)', 'm', 'LineWidth', 2);
     set(gca, 'LineWidth', 2, 'FontSize',18)
     legend({'AF','AFref'});
     grid on;
@@ -42,18 +42,18 @@ if startsWith(problem, 'AFC')
     xticks(0:5:50);
 elseif startsWith(problem, 'AT_phi3')
     yyaxis right
-    plot(t, trace(2,:)', 'LineWidth', 2);
+    plot(t, trace(2,:)',  'm', 'LineWidth', 2);
     set(gca, 'LineWidth', 2, 'FontSize',18)
     
     yyaxis left
-    plot(t, trace(3,:)', 'LineWidth', 2);
+    plot(t, trace(3,:)', 'g', 'LineWidth', 2);
     legend({'speed','RPM'});
     grid on;
     xlim([0 30]);
     xticks(0:5:30);
 
 else
-    plot(t, trace(2,:)', 'LineWidth', 2);
+    plot(t, trace(2,:)', 'm', 'LineWidth', 2);
     set(gca, 'LineWidth', 2, 'FontSize',18)
     legend({'speed'});
     grid on;
