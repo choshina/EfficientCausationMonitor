@@ -37,7 +37,7 @@ Alternatively, you can also use the executables available in `Online/bin/`.
 
 ## Reproduction of experiments in paper
 
-- Navigate to `hscc24/`, all the traces and specifications have been stored at those `.mat` files
+- Navigate to `experiment/`, all the traces and specifications have been stored at those `.mat` files
   
 - In Line 3 of `exec.m`, specify the problem instance you want to run
 
@@ -52,22 +52,22 @@ In each of the figures below, there are three sub-plots:
   - the bottom sub-plot is the monitoring result of our proposed efficient causation monitors;
 
 <p float="left">
-  <img src="hscc24/plots/AT_phi1.png" alt="AT_phi1" width="400"/> 
-  <img src="hscc24/plots/AT_phi2.png" alt="AT_phi2" width="400"/>
+  <img src="experiment/plots/AT_phi1.png" alt="AT_phi1" width="400"/> 
+  <img src="experiment/plots/AT_phi2.png" alt="AT_phi2" width="400"/>
 </p>
 <p float="left">
-  <img src="hscc24/plots/AT_phi3.png" alt="AT_phi3" width="400"/>
-  <img src="hscc24/plots/AT_phi4.png" alt="AT_phi4" width="400"/>
+  <img src="experiment/plots/AT_phi3.png" alt="AT_phi3" width="400"/>
+  <img src="experiment/plots/AT_phi4.png" alt="AT_phi4" width="400"/>
 </p>
 <p float="left">
-  <img src="hscc24/plots/AFC_phi1.png" alt="AFC_phi1" width="400"/>
-  <img src="hscc24/plots/AFC_phi2.png" alt="AFC_phi2" width="400"/>
+  <img src="experiment/plots/AFC_phi1.png" alt="AFC_phi1" width="400"/>
+  <img src="experiment/plots/AFC_phi2.png" alt="AFC_phi2" width="400"/>
 </p>
 
 ## How to draw such plots
 
-- Navigate to `hscc24/`, and open `plot_fig.m`
+- Navigate to `experiment/`, and open `plot_fig.m`
   
-- Specify the problem instance you want to run, also specify the ID of the signal stored in `hscc/data/`
+- Specify the problem instance you want to run, also specify the ID of the signal stored in `experiment/data/`
   
 - Run `plot_fig.m`
