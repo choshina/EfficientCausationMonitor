@@ -1,6 +1,3 @@
-# Efficient Online Causation Monitoring of Signal Temporal Logic
-This repository is for the reproduction of the experiment results in "Efficient Online Causation Monitoring of Signal Temporal Logic". The code is based on the online monitoring component of [Breach](https://github.com/decyphir/breach). 
-
 ***
 
 ## System requirement
