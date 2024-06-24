@@ -79,7 +79,86 @@ Note that users can also customize the code for other use. Some useful tips are 
  79             rob_low= phi->causation_opt_lower();
 ``` 
 
+***
+### Structure of the Repository
 
+```
+.
+├── Core
+│   └── m_src
+│       └── varargin2struct_breach.m
+├── Ext
+├── Figure2a.m
+├── Figure2b.m
+├── InitBreach.m
+├── InstallBreach.m
+├── LICENSE
+├── New.m
+├── Online
+│   ├── bin
+│   │   ├── onlineMonitorWrapper.mexa64
+│   │   ├── onlineMonitorWrapper.mexmaci64
+│   │   ├── onlineMonitorWrapper.mexw64
+│   │   ├── stl_causation.mexa64
+│   │   ├── stl_causation.mexmaci64
+│   │   ├── stl_causation_mid.mexmaci64
+│   │   ├── stl_causation_opt.mexa64
+│   │   ├── stl_causation_opt.mexmaci64
+│   │   ├── stl_eval_mex.mexa64
+│   │   ├── stl_eval_mex.mexmaci64
+│   │   ├── stl_eval_mex.mexw64
+│   │   ├── stl_eval_mex_pw.mexa64
+│   │   └── stl_eval_mex_pw.mexmaci64
+│   ├── include
+│   │   ├── FlexLexer.h
+│   │   ├── interval.h
+│   │   ├── location.hh
+│   │   ├── position.hh
+│   │   ├── robustness.h
+│   │   ├── signal.h
+│   │   ├── signal_expr.h
+│   │   ├── stack.hh
+│   │   ├── stdafx.h
+│   │   ├── stl_driver.h
+│   │   ├── stl_parser.h
+│   │   ├── stl_scanner.h
+│   │   ├── tools.h
+│   │   ├── transducer.asv
+│   │   ├── transducer.h
+│   │   └── y.tab.h
+│   ├── m_src
+│   │   └── compile_stl_mex.m
+│   ├── obj
+│   └── src
+│       ├── Makefile_Parser
+│       ├── interval.cpp
+│       ├── interval_transducer.cpp
+│       ├── main.cpp
+│       ├── onlineMonitorWrapper.cpp
+│       ├── robustness.cpp
+│       ├── signal.cpp
+│       ├── signal_expr.cpp
+│       ├── stl_atom.cpp
+│       ├── stl_causation.cpp
+│       ├── stl_causation_mid.cpp
+│       ├── stl_causation_opt.cpp
+│       ├── stl_driver.cpp
+│       ├── stl_eval_mex.cpp
+│       ├── stl_eval_mex_pw.cpp
+│       ├── stl_monitor.cpp
+│       ├── stl_parser.cpp
+│       ├── stl_parser.ypp
+│       ├── stl_scanner.cpp
+│       ├── stl_scanner.lpp
+│       ├── tools.cpp
+│       ├── transducer.cpp
+│       └── update_transducer.cpp
+├── experiment
+│   ├── data
+│   ├── exec.m
+│   └── plots
+└── results
+```
 
 
 <!-- 
