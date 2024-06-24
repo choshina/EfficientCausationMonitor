@@ -1,7 +1,6 @@
 clear;
 
 spec_id = 1;
-%problem = 'NN_phi1';
 problem = ['CAR_phi', int2str(spec_id)];
 repeat = 5;
 i = 1;
