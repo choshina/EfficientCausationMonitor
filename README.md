@@ -77,7 +77,8 @@ Note that users can also customize the code for other use. Some useful tips are 
 ```
  78             rob_up = phi->causation_opt_upper();
  79             rob_low= phi->causation_opt_lower();
-``` 
+```
+- An easy way to compile the code is to run `InstallBreach`.
 
 ***
 ### Structure of the Repository
