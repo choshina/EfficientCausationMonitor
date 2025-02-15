@@ -20,8 +20,6 @@ This repository is for the artifact evaluation of the paper "CauMon: An Informat
 ***
 # Run in your local machine
 
-***
-
 ## System requirement
 
 - Operating system: Linux or MacOS;
@@ -30,7 +28,7 @@ This repository is for the artifact evaluation of the paper "CauMon: An Informat
 
 ## Installation of our tool:
 
-- Clone the repository, via `[this repo]`
+- Clone the repository, via `https://github.com/choshina/EfficientCausationMonitor.git`
   
   > Alternatively, you can download this repository via the URL: .
 
