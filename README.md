@@ -2,7 +2,7 @@
 
 This repository is for the artifact evaluation of the paper "CauMon: An Informative Online Monitor for Signal Temporal Logic", accepted by FM 2024.
 
-## Instructions for Artifact Evaluation
+## Run in Docker
 
 ***
 ### Docker 
@@ -21,15 +21,15 @@ This repository is for the artifact evaluation of the paper "CauMon: An Informat
 
 
 ***
-# Run in your local machine
+## Run in your local machine
 
-## System requirement
+### System requirement
 
 - Operating system: Linux or MacOS;
 
 - MATLAB (Simulink/Stateflow) version: >= 2020a. (MATLAB license needed)
 
-## Installation of our tool:
+### Installation of our tool:
 
 - Clone the repository, via `https://github.com/choshina/EfficientCausationMonitor.git`
   
