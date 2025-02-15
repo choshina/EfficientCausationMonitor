@@ -16,6 +16,31 @@ This repository is for the artifact evaluation of the paper "CauMon: An Informat
 
   Input your MATLAB license information (MATLAB account that has a license) to activate MATLAB in docker container. 
 
+
+***
+# Run in your local machine
+
+***
+
+## System requirement
+
+- Operating system: Linux or MacOS;
+
+- MATLAB (Simulink/Stateflow) version: >= 2020a. (MATLAB license needed)
+
+## Installation of our tool:
+
+- Clone the repository, via `[this repo]`
+  
+  > Alternatively, you can download this repository via the URL: .
+
+- Start MATLAB GUI, set up a C/C++ compiler using the command `mex -setup`. (Refer to [here](https://www.mathworks.com/help/matlab/matlab_external/changing-default-compiler.html) for more details.)
+  > Running with MATLAB in shell is also OK. 
+  
+- Navigate to the project home, and run `InstallBreach`
+
+
+
 ***
 ### Reproduce Results in Paper
 
