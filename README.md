@@ -5,6 +5,9 @@ This repository is for the artifact evaluation of the paper "CauMon: An Informat
 ## Instructions for Artifact Evaluation
 
 ***
+### Docker 
+`https://zenodo.org/records/12518433`
+
 ### Preparation
 - Load the docker container by:
 
